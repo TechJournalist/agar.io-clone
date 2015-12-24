@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "foodMass": 1,
+    "foodMass": 5,
     "fireFood": 20,
     "limitSplit": 16,
     "defaultPlayerMass": 10,
@@ -10,9 +10,9 @@
 		"strokeWidth": 20,
 		"defaultMass": {
             "from": 100,
-            "to": 150
+            "to": 136
         },
-		"splitMass": 180
+		"splitMass": 100
 	},
     "gameWidth": 5000,
     "gameHeight": 5000,
@@ -25,8 +25,8 @@
     "networkUpdateFactor": 40,
     "maxHeartbeatInterval": 5000,
     "foodUniformDisposition": true,
-    "virusUniformDisposition": false,
+    "virusUniformDisposition": true,
     "newPlayerInitialPosition": "farthest",
     "massLossRate": 1,
-    "mergeTimer": 15
+    "mergeTimer": 1
 }
